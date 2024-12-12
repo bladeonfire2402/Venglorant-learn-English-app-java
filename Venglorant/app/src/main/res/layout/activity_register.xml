@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#181a20"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_splash"
+        android:layout_marginBottom="2dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Venglorant!"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:layout_marginBottom="25dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên "
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_corner"
+        android:padding="20dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:id="@+id/edtName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập password"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="@font/ubuntu_medium"
+        android:padding="20dp"
+        android:id="@+id/edtPassword" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Email"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounded_corner"
+        android:padding="20dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:id="@+id/edtEmail" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập số điện thoại"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_corner"
+        android:padding="20dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:id="@+id/edtPhone" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÍ"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:backgroundTint="@color/white"
+        android:textColor="#3B84F1"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:id="@+id/btnRegister" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Bạn đã có tài khoản ? "
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginLeft="-20dp"
+            android:fontFamily="@font/ubuntu_regular" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập ngay"
+            android:textColor="#1E90FF"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textSize="17sp"
+            android:id="@+id/login_page" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

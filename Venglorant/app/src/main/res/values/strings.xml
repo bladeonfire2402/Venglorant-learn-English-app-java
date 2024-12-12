@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Venglorant</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Vocalbulary_Fragment-->
+
+    <!--Vocal-->
+    <string name="vocalbulary1">Apple</string>
+    <string name="vocalbulary2">Ant</string>
+    <string name="vocalbulary3">Bubble</string>
+    <string name="vocalbulary4">Boss</string>
+    <string name="vocalbulary5">Baby</string>
+    <string name="vocalbulary6">Bench</string>
+    <string name="vocalbulary7">Cat</string>
+    <string name="vocalbulary8">Candy</string>
+    <string name="vocalbulary9">Corn</string>
+    <string name="vocalbulary10">Dance</string>
+    <string name="vocalbulary11">Dog</string>
+    <string name="vocalbulary12">Exit</string>
+    <string name="vocalbulary13">Empty</string>
+
+    <!--vocalType-->
+    <string name="vocalTypeNoun">Noun</string>
+    <string name="vocalTypeVerb">Verb</string>
+    <string name="vocalTypeADJ">Adjective</string>
+
+
+    <!--vocalMean-->
+    <string name="vocalbularyMeans1">Quả Táo</string>
+    <string name="vocalbularyMeans2">Con Kiến</string>
+    <string name="vocalbularyMeans3">Bong Bóng</string>
+    <string name="vocalbularyMeans4">Ông Trùm</string>
+    <string name="vocalbularyMeans5">Em Bé</string>
+    <string name="vocalbularyMeans6">Cái Ghế Dựa</string>
+    <string name="vocalbularyMeans7">Con Mèo</string>
+    <string name="vocalbularyMeans8">Cây Kẹo</string>
+    <string name="vocalbularyMeans9">Quả Ngô</string>
+    <string name="vocalbularyMeans10">Nhảy Nhót</string>
+    <string name="vocalbularyMeans11">Con Chó</string>
+    <string name="vocalbularyMeans12">Lối Thoát</string>
+    <string name="vocalbularyMeans13">Trống Rỗng</string>
+    <string name="vocalbularyMeans14">Quả Táo</string>
+
+</resources>

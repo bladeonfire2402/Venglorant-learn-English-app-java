@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_margin="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="@drawable/myshape"
+                android:padding="0dp"></ImageView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="160dp"
+                android:fontFamily="@font/ubuntu_medium"
+                android:outlineAmbientShadowColor="@color/black"
+                android:text="Premium"></Button>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="350dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="-60dp"
+                android:maxWidth="100dp"
+                android:src="@drawable/premium_img_content"></ImageView>
+
+            <TextView
+                android:id="@+id/title_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="@font/banger"
+                android:scaleX="1.2"
+                android:scaleY="1.3"
+                android:text="Khóa học StarTrek"
+                android:textColor="#FFD700"
+                android:textSize="15sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="@font/ubuntu_medium"
+                android:text="Chương trình Tiếng Anh nâng cao,giáo trình 100% chuẩn quốc tế "
+                android:textColor="#554545"
+                android:textSize="15sp"></TextView>
+        </FrameLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-20dp"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bài học nổi bật"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:textColor="#181BE6"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Xem tất cả"
+                    android:textSize="18sp"
+                    android:alpha="0.7"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:layout_marginLeft="90dp"
+                    ></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/bo_goc"
+                    android:padding="5dp">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/women_homefrag"
+                        android:id="@+id/homefragimg3"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 1"
+                        android:textSize="23sp"
+                        android:fontFamily="@font/banger"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="-100dp"
+                        android:textSize="20sp"
+                        android:textColor="#3F51B5"
+                        android:fontFamily="@font/ubuntu_bold"
+                        android:text="A Letter to my friend"></TextView>
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginLeft="-200dp"
+                        android:textSize="18sp"
+                        android:textColor="#9F9999"
+                        android:fontFamily="@font/banger"
+                        android:text="Học ngay"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/bo_goc"
+                    android:padding="5dp">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/homeftrag_image"
+                        android:id="@+id/homefragimg2"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 1"
+                        android:textSize="23sp"
+                        android:fontFamily="@font/banger"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="-100dp"
+                        android:textSize="20sp"
+                        android:textColor="#3F51B5"
+                        android:fontFamily="@font/ubuntu_bold"
+                        android:text="What to buy  online ?"></TextView>
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginLeft="-200dp"
+                        android:textSize="18sp"
+                        android:textColor="#9F9999"
+                        android:fontFamily="@font/banger"
+                        android:text="Học ngay"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/bo_goc"
+                    android:padding="5dp">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/homefrag_inlovesarah"
+                        android:id="@+id/homefragimg1"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Unit 1"
+                        android:textSize="23sp"
+                        android:fontFamily="@font/banger"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="-100dp"
+                        android:textSize="20sp"
+                        android:textColor="#3F51B5"
+                        android:fontFamily="@font/ubuntu_bold"
+                        android:text="Im in love you, Sarah "></TextView>
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginLeft="-200dp"
+                        android:textSize="18sp"
+                        android:textColor="#9F9999"
+                        android:fontFamily="@font/banger"
+                        android:text="Học ngay"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

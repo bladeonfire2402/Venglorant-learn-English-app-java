@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bo_goc"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/ivHinhUserItem"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/women_homefrag"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtTenU"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/banger"
+                android:textSize="25dp"
+                android:paddingLeft="10dp"
+                android:text="Tên Người dùng"
+                android:textColor="#6100FF"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="Tài Khoản:"
+                    android:fontFamily="@font/banger"
+                    android:gravity="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/txtUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:fontFamily="@font/banger"
+                    android:text="huy@gmail.com"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="Mật Khẩu:"
+                    android:fontFamily="@font/banger"
+                    android:gravity="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/txtPassWord"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:fontFamily="@font/banger"
+                    android:text="HUy HEN HA"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

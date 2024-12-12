@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".quanlyuser.AddUserActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Tên Người dùng"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/edtTenU"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bo_goc"
+                android:ems="10"
+                android:hint="Nhập UserName"
+                android:inputType="text"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="UserName"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/edtUserName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bo_goc"
+                android:ems="10"
+                android:hint="Nhập UserName"
+                android:inputType="text"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="PassWord"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/edtPassWord"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bo_goc"
+                android:ems="10"
+                android:hint="Nhập PassWord"
+                android:inputType="text"
+                android:padding="10dp" />
+
+
+            <ImageView
+                android:id="@+id/ivHinhUser"
+                android:layout_width="247dp"
+                android:layout_height="143dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_user_2" />
+
+            <Button
+                android:id="@+id/btnUpHinhUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:text="Chọn hình đại diện" />
+
+            <Button
+                android:id="@+id/btnThemUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Thêm" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

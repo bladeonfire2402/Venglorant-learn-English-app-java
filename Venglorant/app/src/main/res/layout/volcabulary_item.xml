@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/VocalImage"></ImageView>
+
+    <TextView
+        android:id="@+id/Volcalbulary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@id/VocalImage"
+        android:textColor="#1D3DDC"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/ubuntu_bold"
+        tools:text="Apple"></TextView>
+
+
+    <TextView
+        android:id="@+id/VocalType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="2dp"
+        android:layout_toEndOf="@id/Volcalbulary"
+        android:fontFamily="@font/ubuntu_medium"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="3dp"
+        tools:text="(noun)"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Spelling"
+        android:textColor="@color/black"
+        android:fontFamily="@font/ubuntu_regular"
+        android:layout_toEndOf="@id/VocalImage"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/Volcalbulary"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        tools:text="/ˈæp.əl/"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/VocalMean"
+        android:textColor="#A35C172E"
+        android:textSize="18dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:layout_marginLeft="15dp"
+        android:layout_toEndOf="@id/VocalImage"
+        android:layout_below="@id/Spelling"
+        tools:text="Quả táo "></TextView>
+
+</RelativeLayout>

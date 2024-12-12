@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".quanlyBaiHoc.CapNhatBHActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tên Unit"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edtUnitBHCN"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bo_goc"
+        android:ems="10"
+        android:hint="Nhập Tên Unit"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tên Bài học"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edtTenBHCN"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bo_goc"
+        android:ems="10"
+        android:hint="Nhập Tên Unit"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <ImageView
+        android:id="@+id/ivHinhUPCN"
+        android:layout_width="247dp"
+        android:layout_height="143dp"
+        app:srcCompat="@drawable/icon_image"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnUpHinhCN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/bo_goc"
+        android:text="chọn hình ảnh" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnCapNhatBH"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Cập Nhật"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnXoaBH"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Xóa"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
